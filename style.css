@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: Open Sans, Arial, sans-serif;
+  margin: 0px;
+  width: px;
+}
+
+header {
+font-family: Open Sans, Arial, sans-serif;
+background-color: #1d2043;
+background-size: cover;
+position: relative;
+background-image: url(../images/football_1920.jpg);
+}
+
+header:after {
+  content: "";
+  background-color: #1d2043;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.45;
+}
+.surface-logo-text {
+	width: 205px;
+	height: 55px;
+	text-align: center;
+}
+
+.title {
+  width: 1530px;
+  font-size: 65px;
+  line-height: 75px;
+  margin: 100px auto 0;
+  font-family: Open Sans, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.download-buttons {
+display: flex;
+justify-content: space-between;
+}
+.download-button {
+
+}
+
+
+.conteiner {
+display: flex;
+justify-content: space-between;
+
+}
+.mini-conteiner {
+	margin-bottom: 0px;
+}
+
+.conteiner-big-title {
+color: #e7e7e7;
+width: 60px;
+}
+
+.conteiner-namber {
+display: flex;
+justify-content: space-between;	
+}
+
+.conteiner-title {
+color: #c1c1c1;
+width: 25px;
+}
+
+.conteiner-text-black {
+color: #000000;
+width: 15px;
+}
+.conteiner-text-white {
+color: #c2c3cd;
+width: 15px;
+}
+
+.white {
+	background-color: #ffffff;
+
+}
+.blue {
+	background-color: #f6f4fa;
+}
+.violet {
+	background-color: #5e42b0;
+}
+
+
+
+.grey {
+	background-color: #f5f6f7;
+}
+.dark-blue {
+	background-color: #0a0e34;
+}
+
+
+footer {
+	font-family: Open Sans, Arial, sans-serif;
+background-color: #1d2043;
+background-size: cover;
+position: relative;
+background-image: url(../images/game_1920.jpg);
+}
+}
+.conteiner-footer-logo {
+display: flex;
+justify-content: space-between;	
+}
+
+.download-buttons {
+display: flex;
+justify-content: space-between;	
+}
